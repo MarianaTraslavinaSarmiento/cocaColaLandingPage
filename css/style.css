@@ -38,7 +38,7 @@
     height: 200px;
     position: relative;
     left: 10%;
-    top: 34%;
+    top: 30%;
 }
 
 .left .content-button {
@@ -67,6 +67,14 @@
 
 .content-button button:nth-child(1) {
     background: red;
-    color: white
+    color: white;
+    transition: 0.2s ease
 }
 
+.right{
+    width: 30%;
+    height: 100%;
+    right: 0;
+    background: red;
+    position: absolute 
+}
